@@ -13,5 +13,9 @@ describe("bowling game", ()=> {
         it("testcase 3", () => {
             expect(score([6, 4, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])).toBe(16)
         })
+
+        it("testcase 4", () => {
+            expect(score([8, 4, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])).toBe(15)
+        })
     })
 })
